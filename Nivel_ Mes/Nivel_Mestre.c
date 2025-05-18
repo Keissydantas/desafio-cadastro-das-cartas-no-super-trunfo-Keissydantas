@@ -66,13 +66,13 @@ int main(){
     superpoder2 =  populacao2+ area2 + pib4 + pibpercapita2 + (1 / densidadepopulacional2) + pontosturisticos2;
     printf("Super Poder: %.2f\n", superpoder2);
      
-    printf("População 1 > População 2 : %d\n", (int)populacao1 > populacao2);
-    printf("Area 1 > Area 2 : %d\n", (float)area1 > area2);
-    printf("PIB 1 > PIB 2 : %d\n", (float)pib1 > pib2);
-    printf("Pontos Turisticos 1 > Pontos Turisticos 2 : %d\n", (int)pontosturisticos1 > pontosturisticos2);
-    printf("Densidade Populacional 1 > Densidade Polulacional 2: %d\n", (float)densidadepopulacional1 > densidadepopulacional2);
-    printf("PIB Per Capita 1 > PIB Per Capita 2 : %d\n", (float)pibpercapita1 > pibpercapita2);
-    printf("Super Poder 1 > Super Poder 2 : %d\n", (float)superpoder1 > superpoder2);
+    printf("População 1 > População 2 : %d\n", populacao1 > populacao2);
+    printf("Area 1 > Area 2 : %d\n", area1 > area2);
+    printf("PIB 1 > PIB 2 : %d\n", pib1 > pib2);
+    printf("Pontos Turisticos 1 > Pontos Turisticos 2 : %d\n", pontosturisticos1 > pontosturisticos2);
+    printf("Densidade Populacional 1 > Densidade Polulacional 2: %d\n", densidadepopulacional1 > densidadepopulacional2);
+    printf("PIB Per Capita 1 > PIB Per Capita 2 : %d\n", pibpercapita1 > pibpercapita2);
+    printf("Super Poder 1 > Super Poder 2 : %d\n", superpoder1 > superpoder2);
      
 
     return 0;
