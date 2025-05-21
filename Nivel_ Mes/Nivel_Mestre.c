@@ -33,7 +33,6 @@ int main(){
     superpoder1 =  populacao1+ area1 + pib3 + pibpercapita1 + (1 / densidadepopulacional1) + pontosturisticos1;
     printf("Super Poder: %.2f\n", superpoder1);
      
-    
      int carta2 = 2;
      char estado2 = 'T';
      char codigo2[20] = "T02";
